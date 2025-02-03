@@ -2,8 +2,8 @@ import pandas as pd
 import os
 
 # Define file paths
-excel_file = "data/Dataset UK L'Oreal Paris Haircare - HEC Training.xlsx"
-output_folder = "data/"
+excel_file = "../data/Dataset UK L'Oreal Paris Haircare - HEC Training.xlsx"
+output_folder = "../data/"
 
 # Read all sheets from the Excel file
 sheets = pd.read_excel(excel_file, sheet_name=None)
