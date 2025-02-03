@@ -3,9 +3,12 @@
 ## Create environment
 
 Run the following in your terminal:
-- `uv venv .venv`
-- source .venv/bin/activate
-- uv pip install -e . # Use the pyproject.toml to install dependencies
+
+```bash
+uv venv "nom_env" --python=python3.12
+source nom_env/bin/activate
+uv pip install -e . # Use the pyproject.toml to install dependencies
+```
 
 ## Download and extract data
 
